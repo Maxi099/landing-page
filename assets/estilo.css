@@ -109,7 +109,7 @@ nav a:hover{
     gap:10px;
 }
 
-.botones a:last-child {
+.botones a:first-child {
     color: white;
     background-color: red;
     width: 120px;
@@ -121,7 +121,7 @@ nav a:hover{
 
 }
 
-.botones a:first-child {
+.botones a:last-child {
     color: red;
     background-color: white;
     border: 2px solid red;
