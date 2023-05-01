@@ -1,4 +1,5 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Comme:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 @font-face {
     font-family: 'fuente1';
@@ -24,32 +25,20 @@
 }
 
 body{
-    background-color: rgb(230, 231, 232);
+    background-color: white
 }
 
- 
-nav{       
+header{
     max-width: 70%;
     margin: auto;
-    margin-top: 30px;
-    border: 1px solid var(--colorborde);
-    border-radius: 10px 10px 0 0 ;
-    background-color: white;
     display: flex;  
     justify-content: space-between;
     align-items: center;   
     padding: 0 40px;
     height: 70px;
+
 }
 
-main{
-    background-color: white;
-    border-right: 1px solid var(--colorborde);
-    border-left: 1px solid var(--colorborde);
-    max-width: 70%;
-    margin: auto;
-    height: 100vh;     
-}
 
 nav a{
     
@@ -80,3 +69,93 @@ nav a:hover{
     }
 
 */
+
+
+#sec1{
+    background-color: rgb(230,231,232);
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+
+.info h1 {
+    font-size: 48px;
+    width: 80%;
+    font-family: 'Poppins';
+    min-width: 300px;
+    font-weight: 800;
+    
+}
+
+.info p {
+    font-size: 16px;
+    width: 90%;
+    line-height: 1.6;
+    font-family: 'Comme';
+    
+}
+
+.botones{
+    display:flex;
+    gap:10px;
+}
+
+.botones a:last-child {
+    color: white;
+    background-color: red;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Comme';
+
+}
+
+.botones a:first-child {
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Comme';
+}
+
+.imagen {
+    width: 300px;
+    padding: 20px;
+    }
+   
+
+
+
+#sec2{       
+    padding: 30px 0; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(96,96,98);
+}
+
+#sec2 p{
+    color: white;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+
+}
+
