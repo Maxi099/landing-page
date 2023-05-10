@@ -462,7 +462,24 @@ nav ul {
 
 @media (max-width: 768px) {
 
+    .contacto-sucursal{
 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+        gap:30px;  
+    
+    
+    }
+    
+    .contacto-datos{
+    
+       justify-content: center;
+       align-items: center;
+        gap: 15px;
+    }
+    
 
 
 } 
@@ -509,23 +526,6 @@ nav ul {
     font-size: 14px;
 }
 
-.contacto-sucursal{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-    gap:30px;  
-
-
-}
-
-.contacto-datos{
-
-   justify-content: center;
-   align-items: center;
-    gap: 15px;
-}
 
 
 footer ul li{
