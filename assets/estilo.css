@@ -416,6 +416,7 @@ nav ul {
     height: 100vh;
     top:0;
     left:0;
+    overflow-y: hidden;
     flex-direction: column;
     align-items: center;
     padding: 45px 15px;
@@ -460,7 +461,7 @@ nav ul {
 
     nav ul {
        
-        width: 40%;
+      
     padding: 45px 10px;
        
         }
@@ -490,6 +491,40 @@ nav ul {
     
     font-size: 14px;
 }
+
+.contacto-sucursal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap:30px;  
+
+
+}
+
+.contacto-datos{
+
+   justify-content: center;
+   align-items: center;
+    gap: 15px;
+}
+
+
+footer ul li{
+    display: block;
+    padding: 5px 10px;
+}
+footer ul {
+    text-align: center;
+}
+
+
+footer ul li:nth-child(-n+2) {
+    border: none;
+}
+   
+
 
 
 }
