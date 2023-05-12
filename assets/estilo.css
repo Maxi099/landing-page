@@ -412,6 +412,9 @@ display: none;
 .menu-label {
     display: flex;
     cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .menu-label img {
@@ -425,11 +428,14 @@ nav ul {
     background: linear-gradient(to bottom, rgb(254, 239, 225) ,  rgba(255,255,255) );
     height: 100vh;
     top:0;
-    left:0;
+   left:0;
     flex-direction: column;
     align-items: center;
     padding: 45px 15px;
     gap: 25px;
+    transform: translatex (250px);
+    transition: all 1s;
+    
     z-index: 3;
     display:none;
 
@@ -440,16 +446,39 @@ nav ul {
         
     }
     
+  
+   
+   @keyframes fadein {
+        from {
+            width: 0;
+        }
+   
+        to{
+             width: 60%;
+        }
+   }
 
 
-    #menu-toggle:checked~  ul {
-        display: flex;
+
+
+
+    #menu-toggle:checked~  ul {           
+    display: flex;
+          animation: fadein 1s
+        
+       
     }
+
+  
 
     #menu-toggle:checked+  .menu-label img {
        transform: rotate(90deg);
+       
             }
    
+            #menu-toggle:checked+  .menu-label {
+                border: 1px solid red;
+                     }
 
 .linea{
     border: 0.5px solid red ;
@@ -549,5 +578,11 @@ footer ul li:nth-child(-n+2) {
     line-height: 1.2;
 }
 
+#sec3 h2{
+    font-size: 32px;
+    
+ }
+
+}
 
 
