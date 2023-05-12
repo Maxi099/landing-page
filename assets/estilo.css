@@ -433,8 +433,7 @@ nav ul {
     align-items: center;
     padding: 45px 15px;
     gap: 25px;
-    transform: translatex (250px);
-    transition: all 1s;
+   
     
     z-index: 3;
     display:none;
